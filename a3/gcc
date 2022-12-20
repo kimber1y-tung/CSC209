@@ -1,0 +1,10 @@
+commands
+
+./classifier -K 3 -d eucl -p 8 -v datasets/training_1000.bin datasets/testing_1000.bin 
+> 829
+
+./classifier -K 3 -d eucl -p 8 -v datasets/training_10000.bin datasets/training_10000.bin 
+> 9623
+
+./classifier -K 1 -d cos -v datasets/training_10000.bin datasets/testing_1000.bin 
+> 943
